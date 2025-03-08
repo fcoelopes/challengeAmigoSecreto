@@ -2,13 +2,27 @@
 let listaDeNomes = [];
 let listaDeIndicesSorteados = [];
 
+function validarEntrada(nome) {
+    if (typeof nome !== 'string') {
+        return false;
+    }
+    if (nome.trim() === '') {
+        return false;
+    }
+    if (/\d/.test(nome)) {
+        return false;
+    }
+    return true;
+
+}
 
 function adicionarAmigo() {
     let nome = document.querySelector('input').value;
-    if (nome && nome.trim() !== '') {
+    if (!validarEntrada(nome)) {
+        alert('Digite um nome válido');
+        return;
+    }else{
         listaDeNomes.push(nome);
-    } else {
-        alert('Nome inválido. Por favor, forneça uma string.');
     }
     console.log(listaDeNomes);
     nome = document.querySelector('input');
