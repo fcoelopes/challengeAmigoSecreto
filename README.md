@@ -4,15 +4,19 @@ O principal objetivo deste desafio é fortalecer suas habilidades em lógica de 
 
 ## Estrutura de Pastas
 
-## Tecnologias Utilizadas
+A estrutura de pastas do projeto deve seguir a seguinte organização:
 
-- HTML
-- CSS
-- JavaScript
-
-## Descrição das Funções
-
-### `validarEntrada(nome)`
+```
+├── challenge/
+├── assets/
+│   ├── amigo-secreto.png
+│   ├── play_circle_outline.png
+├── README_files/
+│   ├── index.html
+│   ├── app.js
+│   ├── style.css
+│   └── .gitignore
+```
 
 Valida o nome de entrada.
 
