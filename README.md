@@ -49,14 +49,14 @@ Sorteia um amigo da lista de nomes e exibe o resultado.
 
 ## Instruções para Baixar o Projeto do GitHub
 
-1. Clone o repositório para a sua máquina local usando o comando:
-   ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
-
-2. Acesse a pasta do projeto:
+1. Acesse a pasta do projeto:
    ```bash
     cd seu-repositorio
     ```
+2. Clone o repositório para a sua máquina local usando o comando:
+   ```bash
+   git clone https://github.com/fcoelopes/challengeAmigoSecreto.git
+   ```
 
 3. Abra o arquivo `index.html` no seu navegador para visualizar o projeto.
 
@@ -65,5 +65,3 @@ Sorteia um amigo da lista de nomes e exibe o resultado.
 Contribuição
 Se você quiser contribuir com este projeto, por favor, faça um fork do repositório, crie uma nova branch com suas alterações e envie um pull request.
 
-Licença
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo LICENSE para mais detalhes.
